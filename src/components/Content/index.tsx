@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import MiddleImage from "../../img/img1.jpg";
-import SmaleImage from "../../img/img2.jpg";
+import SmallImage from "../../img/img2.jpg";
 import LargeImage from "../../img/img3.jpg";
 
 const ImageBox = styled.div`
@@ -53,7 +53,7 @@ export default function Content(props: ContentProps) {
   return (
     <>
       <ImageBox>
-        <Image src={SmaleImage} alt="" />
+        <Image src={SmallImage} alt="" />
       </ImageBox>
       <Cards>
         <CardsTitle>Cards in 3</CardsTitle>
@@ -86,7 +86,7 @@ export default function Content(props: ContentProps) {
           </Card>
           <Card>
             <ImageContainer>
-              <CardImage src={SmaleImage} alt="" />
+              <CardImage src={SmallImage} alt="" />
             </ImageContainer>
             <CardContent>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
