@@ -29,6 +29,7 @@ const CardsRow = styled.div`
 const Card = styled.div`
   flex: 0 1 33.333%;
   padding: 0px 15px;
+  border-bottom: 1px solid pink;
 `;
 const CardImage = styled.img`
   width: 100%;
